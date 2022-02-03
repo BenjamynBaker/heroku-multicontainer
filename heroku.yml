@@ -1,3 +1,4 @@
 build:
   docker:
-    web: ./heroku/Dockerfile
+    web: ./heroku/api/Dockerfile
+    jobs-runner: ./heroku/jobs-runner/Dockerfile
